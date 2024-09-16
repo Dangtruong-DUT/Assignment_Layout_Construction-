@@ -1,0 +1,34 @@
+:root{
+    --brand-color:#605dec ;
+    --text-grey-color:#7C8DB0;
+    --white-color:rgb(255, 255, 255);
+    --black-color:#27273F;
+    --vien-color:#CBD4E6;
+}
+
+*{
+    box-sizing: inherit;
+}
+.red{
+    color:red;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+ 
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
