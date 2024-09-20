@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form 4</title>
+    <title>Form 5</title>
     <link rel="stylesheet" href="../../assest/css/base.css">
-    <link rel="stylesheet" href="../../assest/css/form4.css">
+    <link rel="stylesheet" href="../..//assest/css/form5.css">
 </head>
 <body>
 
 <div class="form-box">
-    <form onsubmit="changeColor(); return false;">
-        <input type="text"  class="form__input" id="colorInput" placeholder="Enter color" required>
-        <input type="submit" class= "btn btn--primary"value="OK">
-
+    <form>
+        <input type="text" id="colorInput"  class="form__input" placeholder="Enter color" required onblur="changeColor()">
     </form>
 </div>
 

@@ -24,7 +24,7 @@ iframe {
     border: none; /* Xóa đường viền của iframe */
     flex: 3;
     min-width: 900px;
-    min-height: 1000px;
+    min-height: 1050px;
     top: 0;
     left: 0;
 }

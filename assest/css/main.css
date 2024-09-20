@@ -257,3 +257,8 @@ ul.footer__list {
     display: flex;
     justify-content: center;
 }
+/*Tam nhin va su mang*/
+.img--tamnhin {
+    max-height: 900px;
+    max-width: 800px;
+}
